@@ -51,7 +51,6 @@ class DocumentsManager extends AbstractManager
 		foreach ($data as $item) {
 			$header = [
 				'_index' => $indexName,
-				'_type' => $type,
 			];
 
 			if (array_key_exists('id', $item)) {
